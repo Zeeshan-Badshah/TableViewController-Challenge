@@ -10,11 +10,11 @@
 		413855941AA4CF9000103234 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 413855931AA4CF9000103234 /* main.m */; };
 		413855971AA4CF9000103234 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 413855961AA4CF9000103234 /* AppDelegate.m */; };
 		4138559A1AA4CF9000103234 /* TableViewController_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 413855981AA4CF9000103234 /* TableViewController_Challenge.xcdatamodeld */; };
-		4138559D1AA4CF9000103234 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4138559C1AA4CF9000103234 /* ViewController.m */; };
 		413855A01AA4CF9000103234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4138559E1AA4CF9000103234 /* Main.storyboard */; };
 		413855A21AA4CF9000103234 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 413855A11AA4CF9000103234 /* Images.xcassets */; };
 		413855A51AA4CF9000103234 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 413855A31AA4CF9000103234 /* LaunchScreen.xib */; };
 		413855B11AA4CF9000103234 /* TableViewController_ChallengeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 413855B01AA4CF9000103234 /* TableViewController_ChallengeTests.m */; };
+		413855BC1AA4D48600103234 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 413855BB1AA4D48600103234 /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +34,14 @@
 		413855951AA4CF9000103234 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		413855961AA4CF9000103234 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		413855991AA4CF9000103234 /* TableViewController_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableViewController_Challenge.xcdatamodel; sourceTree = "<group>"; };
-		4138559B1AA4CF9000103234 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4138559C1AA4CF9000103234 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4138559F1AA4CF9000103234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		413855A11AA4CF9000103234 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		413855A41AA4CF9000103234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		413855AA1AA4CF9000103234 /* TableViewController ChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableViewController ChallengeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		413855AF1AA4CF9000103234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		413855B01AA4CF9000103234 /* TableViewController_ChallengeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController_ChallengeTests.m; sourceTree = "<group>"; };
+		413855BA1AA4D48600103234 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		413855BB1AA4D48600103234 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,8 @@
 			children = (
 				413855951AA4CF9000103234 /* AppDelegate.h */,
 				413855961AA4CF9000103234 /* AppDelegate.m */,
-				4138559B1AA4CF9000103234 /* ViewController.h */,
-				4138559C1AA4CF9000103234 /* ViewController.m */,
+				413855BA1AA4D48600103234 /* TableViewController.h */,
+				413855BB1AA4D48600103234 /* TableViewController.m */,
 				4138559E1AA4CF9000103234 /* Main.storyboard */,
 				413855A11AA4CF9000103234 /* Images.xcassets */,
 				413855A31AA4CF9000103234 /* LaunchScreen.xib */,
@@ -224,8 +224,8 @@
 			files = (
 				413855971AA4CF9000103234 /* AppDelegate.m in Sources */,
 				413855941AA4CF9000103234 /* main.m in Sources */,
-				4138559D1AA4CF9000103234 /* ViewController.m in Sources */,
 				4138559A1AA4CF9000103234 /* TableViewController_Challenge.xcdatamodeld in Sources */,
+				413855BC1AA4D48600103234 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
